@@ -1,0 +1,150 @@
+.header-container{
+    display: flex ;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background-color: transparent;
+    top: 0px;
+}
+body{
+    padding: 0;
+    margin:0;
+    background-color: white;
+}
+.logo{
+    width: 120px;
+    height: 70px;
+}
+.navbar{
+    width: 250px;
+    padding-top:23px;
+    padding-right:23px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a {
+    color: #6e6e6e;
+}
+.greeting{
+    background-color: #B0DDFC;
+    height: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.greeting p{
+    font-size: 50px;
+    margin-right: 500px;
+    margin-left: 70px;
+    color: #467dbb;
+    padding-top: 10px ;
+}
+.how{
+    background-color: #ECCBD9;
+    height: 120px;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+.how p{
+    font-size: 40px;
+    margin-right: 70px;
+    margin-left: 500px;
+    color: #766C7F;
+    text-align: end;
+}
+.promo{
+    background-color: #94DBD1;
+    height: 230px;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 500px;
+    border-radius: 100px;
+}
+.promo p{
+    font-size: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 20px ;
+    color: #BF4A58;
+    padding-left: -15px;
+    text-align: center;
+}
+
+.introduction{
+    background-color: #f1e99e;
+    height: 100px;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.introduction p{
+    font-size: 40px;
+    margin-right: 200px;
+    margin-left: 200px;
+    color: #63009c;
+    padding-left: -15px;
+    text-align: center;
+}
+.offer{
+    background-color: #3B8EA5;
+    height: 140px;
+    margin-top: 300px;
+    margin-right: 20px;
+    margin-left: 500px;
+}
+.offer p{
+    font-size: 40px;
+    margin-right: 70px;
+    margin-left: 10px;
+    color: #F2B880;
+    padding-left: -15px;
+    text-align: center;
+}
+footer{
+    height: 350px;
+    background-color: #E7CFBC;
+    margin-top: 150px;
+}
+.friends{
+    flex-direction: column;
+}
+h1{
+    color: #875731;
+    text-align: center;
+}
+.social-medias{
+    display: flex; 
+    justify-content: center;
+
+}
+.s-m{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.phone-icon{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: burlywood;
+    margin-top: 50px;
+    justify-content: center;
+    border-radius: 100px;
+}
+.phone-icon img{
+    margin-right: 10px;
+}
+.email-icon{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #7F6A93;
+    margin-top: 50px;
+    justify-content: center;
+    border-radius: 100px;
+}
+.email-icon img{
+    margin-right: 10px;
+
+}
